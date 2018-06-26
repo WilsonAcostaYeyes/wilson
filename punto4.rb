@@ -11,6 +11,6 @@ class Array
   end
 end
 
-p [3, 1, 1, 55, 55,2,3,2].get_mode
+p [3, 1, 1, 2, 4,2,3,2].get_mode
 p [1,2,3,4].get_mode
 

@@ -1,9 +1,9 @@
-a = 'punto4.rb'
-if(File.exist?(a)) 
-	file=a
+read = 'punto4.rb'
+if(File.exist?(read)) 
+	file=read
 	File.readlines(file).each do |line|
 	puts line
 end
 else 
-puts "El archivo #{a} no existe"
+puts "El archivo #{read} no existe"
 end
